@@ -4,7 +4,8 @@
 #include <vector>
 #include <map>
 #include <set>
-
+#include <iostream>
+using namespace std;
 typedef void* 			Handle;
 //typedef long long 		Int;
 typedef int   			Int;
@@ -39,4 +40,5 @@ typedef std::set<UInt8>		UInt8Set;
 typedef std::set<Float>		FloatSet;
 typedef std::set<Double>	DoubleSet;
 
+typedef string 		String;
 #endif /* __TYPES_H */
